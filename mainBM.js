@@ -1,4 +1,3 @@
-import { DRACOLoader } from "./libs/three.js-r132/examples/jsm/loaders/DRACOLoader.js";
 import { GLTFLoader } from "./libs/three.js-r132/examples/jsm/loaders/GLTFLoader.js";
 
 const THREE = window.MINDAR.IMAGE.THREE;
@@ -13,14 +12,7 @@ const initializeMindAR = () => {
 
 // Configure GLTFLoader with DRACOLoader
 const configureGLTFLoader = () => {
-  const loader = new GLTFLoader();
-  const dracoLoader = new DRACOLoader();
-  
-  // Use the online decoder so you don't have to worry about missing folders:
-  dracoLoader.setDecoderPath('https://www.gstatic.com/draco/versioned/decoders/1.4.1/'); 
-  
-  loader.setDRACOLoader(dracoLoader);
-  return loader;
+  return new GLTFLoader();
 };
 
 // Function to set up lighting in the scene
