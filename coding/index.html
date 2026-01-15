@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title> Lagenda Aki Nabalu | AR Storybook</title>
+
+  <!-- Dreamweaver-safe CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header class="nav">
+    <div class="wrap nav__inner">
+      <a class="brand" href="#home" aria-label="Home">
+        <span class="brand__icon">📖</span>
+        <span class="brand__text">Lagenda Aki Nabalu&nbsp;</span>
+      </a>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+
+      <!-- All links scroll inside this page -->
+      <nav class="nav__links" id="navMenu">
+        <a class="navLink" href="#sinopsis">Sinopsis</a>
+        <a class="navLink" href="#cara">Cara Guna</a>
+        <a class="navLink" href="#tentang">Tentang Kami</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO (NEW THEME: night sky + starburst + mountain + clouds) -->
+  <main id="home" class="hero hero--night">
+    <div class="heroArt" aria-hidden="true">
+      <!-- Decorative only; Dreamweaver-safe -->
+      <div class="stars"></div>
+      <div class="burst"></div>
+      <div class="mountain"></div>
+      <div class="cloud cloud--l"></div>
+      <div class="cloud cloud--r"></div>
+    </div>
+
+    <div class="wrap hero__grid">
+      <section class="hero__left">
+        <div class="tag tag--gold">Cerita Rakyat Sabah • AR Interaktif</div>
+
+        <h1 class="hero__title">Lagenda
+          <br />
+          <span class="accentGold">Aki Nabalu&nbsp;</span>
+        </h1>
+
+        <p class="hero__desc hero__desc--light">
+          Sebuah buku interaktif Realiti Terimbuh (AR) yang menggabungkan cerita rakyat     Sabah dengan teknologi moden.
+          Rasai pengalaman membaca yang baharu!
+        </p>
+
+        <div class="hero__btns">
+          <!-- ONLY ONE SEPARATE PAGE -->
+          <a class="btn btn--gold" href="ar-language.html">✨ Start AR Now</a>
+
+          <!-- scroll to synopsis -->
+          <a class="btn btn--ghostLight navLink" href="#sinopsis">Baca Sinopsis</a>
+        </div>
+
+        <div class="miniNote">
+          &nbsp;
+        </div>
+      </section>
+
+      <aside class="hero__right">
+        <div class="coverCard coverCard--night">
+          <img class="coverCard__img"
+               src="../assets/images/cover.png"
+               alt="Cover Kura-kura & Monyet"
+               onerror="this.src='../assets/images/cover.png'" />
+          <div class="coverCard__label">AR Storybook</div>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <!-- SINOPSIS -->
+  <section id="sinopsis" class="section">
+    <div class="wrap">
+      <h2 class="centerTitle">Sinopsis Cerita / Synopsis</h2>
+      <p class="centerSub">Tukar bahasa dan baca ringkasan cerita.</p>
+
+      <div class="tabs">
+        <button class="tab active" data-tab="bm">Bahasa Melayu</button>
+        <button class="tab" data-tab="en">English</button>
+      </div>
+
+      <div class="synopsisLayout">
+        <div class="cardText">
+          <div id="bm" class="panel active">
+            <p>
+              Aki Nabalu ialah seorang lelaki tua yang bijak dan penyayang, tinggal di kaki Gunung Nabalu. Dia menjaga hutan, mendengar sungai, dan mengajar kanak-kanak menghormati haiwan dan tumbuhan. Suatu hari, tanda-tanda aneh muncul seperti langit gelap, haiwan lari, dan angin bertiup kuat. Aki tahu ada sesuatu yang tidak kena dengan alam di kampung mereka. Dia masuk ke hutan dan melihat sungai tercemar, pokok tumbang, dan hutan rosak. Menyedari roh gunung sedang sedih, Aki memulakan pendakian ke puncak gunung. Di perjalanan, dia menghadapi kabus tebal, pokok hidup, dan ilusi yang menguji keberaniannya. Dengan hati yang tulus, Aki sampai ke puncak dan bertemu roh gunung. Roh itu berkata manusia telah lupa menjaga alam, dan Aki berjanji akan membantu menenangkan gunung.
+            </p>
+          </div>
+
+          <div id="en" class="panel">
+            <p>
+              Aki Nabalu is a wise and caring old man who lives at the foot of Mount Nabalu. He looks after the forest, listens to the rivers, and teaches children to respect animals and plants. One day, strange signs appear, such as dark skies, animals fleeing, and strong winds blowing. Aki knows that something is wrong with nature in their village. He enters the forest and sees polluted rivers, fallen trees, and a damaged forest. Realizing that the mountain spirit is sad, Aki begins his journey to climb to the mountain’s peak. Along the way, he faces thick mist, living trees, and illusions that test his courage. With a sincere heart, Aki reaches the summit and meets the mountain spirit. The spirit tells him that humans have forgotten how to care for nature, and Aki promises to help calm the mountain.
+            </p>
+          </div>
+
+          <div class="btnRow">
+            <a class="btn btn--gold" href="ar-language.html">✨ Start AR Now</a>
+            <a class="btn btn--soft navLink" href="#cara">Cara Guna</a>
+          </div>
+        </div>
+
+        <div class="charGrid">
+          <div class="charCard">
+            <img src="../assets/images/aki.png" alt="Aki Nabalu" onerror="this.style.display='none'">
+            <h3>Aki Nabalu&nbsp;</h3>
+            <p>Main Character</p>
+          </div>
+
+          <div class="charCard">
+            <img src="../assets/images/penjaga gunung.png" alt="Penjaga Gunung" onerror="this.style.display='none'">
+            <h3>Penjaga Gunung&nbsp;</h3>
+            <p>Side Character</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CARA GUNA -->
+  <section id="cara" class="section section--night">
+    <div class="wrap">
+      <h2 class="centerTitle lightText">Cara Menggunakan AR</h2>
+      <p class="centerSub lightText">
+        Ikuti langkah mudah untuk menikmati pengalaman AR.
+      </p>
+
+      <div class="stepsGrid">
+        <div class="stepCard stepCard--night">
+          <div class="stepIcon stepIcon--gold">📷</div>
+          <h3>1. Imbas Halaman</h3>
+          <p>Buka mod AR dan halakan kamera pada halaman buku yang mempunyai penanda AR.</p>
+        </div>
+
+        <div class="stepCard stepCard--night">
+          <div class="stepIcon stepIcon--gold">🧊</div>
+          <h3>2. Lihat Animasi 3D</h3>
+          <p>Saksikan watak “hidup” di atas buku menggunakan animasi 3D.</p>
+        </div>
+
+        <div class="stepCard stepCard--night stepCard--outline">
+          <div class="stepIcon stepIcon--gold">🔊</div>
+          <h3>3. Dengar Narasi</h3>
+          <p>Pilih audio: Bahasa Melayu, English, atau Dusun.</p>
+        </div>
+      </div>
+
+      <div class="centerBtn">
+        <a class="btn btn--gold" href="ar-language.html">✨ Start AR Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TENTANG KAMI -->
+  <section id="tentang" class="section">
+    <div class="wrap">
+      <h2 class="centerTitle">Tentang Penulis</h2>
+      <p class="centerSub">Kenali pengarang di sebalik buku interaktif ini.</p>
+
+      <!-- Only ONE author card -->
+      <div class="authorGrid authorGrid--single">
+        <div class="authorCard">
+          <div class="avatar">👤</div>
+          <h3>Encik Ryan Macdonell Andrias</h3>
+          <p class="muted">Pensyarah, FKI UMS</p>
+          <p>
+            Berpengalaman dalam Multimedia, VR dan AR, dengan fokus kepada teknologi untuk budaya dan pendidikan interaktif.
+          </p>
+        </div>
+      </div>
+
+      <!-- Team members (4 small boxes) -->
+      <h3 class="teamTitle">Ahli Pasukan</h3>
+
+      <div class="teamGrid">
+        <div class="teamCard">
+          <div class="teamAvatar">👩‍💻</div>
+          <div class="teamName">Iffah Aqilah</div>
+          <div class="teamRole">Team Member</div>
+        </div>
+
+        <div class="teamCard">
+          <div class="teamAvatar">👨‍💻</div>
+          <div class="teamName">MOHAMAD SOFIAN</div>
+          <div class="teamRole">Team Member</div>
+        </div>
+
+        <div class="teamCard">
+          <div class="teamAvatar">👨‍💻</div>
+          <div class="teamName">MUHAMMAD AIMAN BIN NORDIN</div>
+          <div class="teamRole">Team Member</div>
+        </div>
+
+        <div class="teamCard">
+          <div class="teamAvatar">👨‍💻</div>
+          <div class="teamName">Chang Yen Wei</div>
+          <div class="teamRole">Team Member</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer (Hubungi section removed) -->
+  <footer class="footer footer--night">
+    <div class="wrap footer__inner">
+      <p>© 2026 Penerbit UMS. Hak Cipta Terpelihara.</p>
+    </div>
+  </footer>
+
+  <script src="ui.js"></script>
+</body>
+</html>
