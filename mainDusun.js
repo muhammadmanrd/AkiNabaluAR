@@ -1,4 +1,4 @@
-import { GLTFLoader } from "./libs/three.js-r132/examples/jsm/loaders/GLTFLoader.js";
+import { GLTFLoader } from "https://cdn.jsdelivr.net/npm/three@0.132.2/examples/jsm/loaders/GLTFLoader.js";
 
 const THREE = window.MINDAR.IMAGE.THREE;
 
