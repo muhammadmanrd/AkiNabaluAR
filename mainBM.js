@@ -15,7 +15,10 @@ const initializeMindAR = () => {
 const configureGLTFLoader = () => {
   const loader = new GLTFLoader();
   const dracoLoader = new DRACOLoader();
-  dracoLoader.setDecoderPath('./libs/draco/'); // Path to DRACO decoder files
+  
+  // Use the online decoder so you don't have to worry about missing folders:
+  dracoLoader.setDecoderPath('https://www.gstatic.com/draco/versioned/decoders/1.4.1/'); 
+  
   loader.setDRACOLoader(dracoLoader);
   return loader;
 };
