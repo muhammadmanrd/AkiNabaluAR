@@ -15,7 +15,7 @@ const initializeMindAR = () => {
 const configureGLTFLoader = () => {
   const loader = new GLTFLoader();
   const dracoLoader = new DRACOLoader();
-  dracoLoader.setDecoderPath('/storybook/libs/draco/'); // Path to DRACO decoder files
+  dracoLoader.setDecoderPath('./libs/draco/'); // Path to DRACO decoder files
   loader.setDRACOLoader(dracoLoader);
   return loader;
 };
