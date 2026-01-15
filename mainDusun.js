@@ -269,25 +269,25 @@ const page10Model = await loadModel('./assets/models/scene10.glb',
   { x: 0, y: -0.4, z: 0 }        // Position for page10
 );
 
-const page1Mixer = await setupAnchorWithAutoAnimationAndAudio(mindarThree, page1Model, 0, './assets/audio/dusun/page1.mp3');
+const page1Mixer = await setupAnchorWithAutoAnimationAndAudio(mindarThree, page1Model, 0, './assets/audio/dusun/page1.mp3', '');
 
-     const page2Mixer = await setupAnchorWithAutoAnimationAndAudio(mindarThree, page2Model, 1,  './assets/audio/dusun/page2.mp3');
+     const page2Mixer = await setupAnchorWithAutoAnimationAndAudio(mindarThree, page2Model, 1,  './assets/audio/dusun/page2.mp3', '');
 
-     const page3Mixer = await setupAnchorWithAutoAnimationAndAudio(mindarThree, page3Model, 2,  './assets/audio/dusun/page3.mp3');
+     const page3Mixer = await setupAnchorWithAutoAnimationAndAudio(mindarThree, page3Model, 2,   './assets/audio/dusun/page3.mp3', '');
 
-     const page4Mixer = await setupAnchorWithAutoAnimationAndAudio(mindarThree, page4Model, 3,  './assets/audio/dusun/page4.mp3');
+     const page4Mixer = await setupAnchorWithAutoAnimationAndAudio(mindarThree, page4Model, 3,   './assets/audio/dusun/page4.mp3', '');
 
-     const page5Mixer = await setupAnchorWithAutoAnimationAndAudio(mindarThree, page5Model, 4,  './assets/audio/dusun/page5.mp3');
+     const page5Mixer = await setupAnchorWithAutoAnimationAndAudio(mindarThree, page5Model, 4,   './assets/audio/dusun/page5.mp3', '');
 
-     const page6Mixer = await setupAnchorWithAutoAnimationAndAudio(mindarThree, page6Model, 5,  './assets/audio/dusun/page6.mp3');
+     const page6Mixer = await setupAnchorWithAutoAnimationAndAudio(mindarThree, page6Model, 5,  './assets/audio/dusun/page6.mp3', '');
 
-     const page7Mixer = await setupAnchorWithAutoAnimationAndAudio(mindarThree, page7Model, 6,  './assets/audio/dusun/page7.mp3');
+     const page7Mixer = await setupAnchorWithAutoAnimationAndAudio(mindarThree, page7Model, 6,   './assets/audio/dusun/page7.mp3', '');
 
-     const page8Mixer = await setupAnchorWithAutoAnimationAndAudio(mindarThree, page8Model, 7,  './assets/audio/dusun/page8.mp3');
+     const page8Mixer = await setupAnchorWithAutoAnimationAndAudio(mindarThree, page8Model, 7,  './assets/audio/dusun/page8.mp3', '');
 
-     const page9Mixer = await setupAnchorWithAutoAnimationAndAudio(mindarThree, page9Model, 8,  './assets/audio/dusun/page9.mp3');
+     const page9Mixer = await setupAnchorWithAutoAnimationAndAudio(mindarThree, page9Model, 8,  './assets/audio/dusun/page9.mp3', '');
 
-     const page10Mixer = await setupAnchorWithAutoAnimationAndAudio(mindarThree, page10Model, 9,  './assets/audio/dusun/page10.mp3');
+     const page10Mixer = await setupAnchorWithAutoAnimationAndAudio(mindarThree, page10Model, 9,  './assets/audio/dusun/page10.mp3', '');
 
 
  // Enable interaction for each model
